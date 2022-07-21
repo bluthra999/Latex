@@ -1,0 +1,222 @@
+\documentclass{book}
+\usepackage{anysize}
+\usepackage{amsmath}
+\usepackage{mathabx}
+\usepackage{amstext}
+\usepackage{enumitem}
+\usepackage{lmodern}
+\usepackage{setspace}
+\usepackage[paperheight=7.7in,paperwidth=5.5in]{geometry}
+
+% Custom header
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\textbf{7568}}
+\chead{\textbf{\thepage}}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[RO]{P.T.O}
+
+\begin{document}
+
+\parindent=0pt
+\parskip=8pt
+
+[This question paper contains 6 printed pages.]
+
+\hfill{\textbf{Your Roll No.............}}
+
+\textbf{Sr. No. of Question Paper: 7568} \hfill \textbf{J}
+
+\begin{tabular}{ll}
+Unique  Paper Code &: \hspace{12pt} 32223902\\[8pt]
+Name of the Paper &: \hspace{12pt} Computational Physics Skills\\[8pt]
+Name of the Course &:
+\begin{tabular}{rl}
+& \textbf{B.Sc. (Hons.) Physics}\\
+& \textbf{B.Sc. (Prog.): SEC}
+\end{tabular}\\[8pt]
+
+Semester &: \hspace{12pt} III\\[8pt]
+\end{tabular}
+
+\hspace{5pt}Duration : 3 Hours \hfill Maximum Marks : 50
+
+\textbf{\underline{Instructions for Candidates}}
+\begin{enumerate}
+    \item  Write your Roll No. on the top immediately on receipt of this question paper.
+    \item Question No. 1 is compulsory.
+    \item Attempt 3 questions from each section.
+\end{enumerate}
+
+\onehalfspacing
+
+\begin{enumerate}
+\setlength\itemsep{1em}
+
+\item  Attempt any five questions : \hfill (5x1=5)
+
+\begin{enumerate}[label=(\alph*)]
+\setlength\itemsep{0.75em}
+
+\item Describe the fortran statement parameter (pi=\\ 3.14159).
+
+\item  Give example (without explanation) of the fortran\\
+statements required to open a file for data writing, \\
+writing data in the opened file, closing the opened \\
+data file.
+
+\item What is meant by a structured programming \\ language?
+
+\item Briefly describe the use of any two LaTeX packages.
+
+\item What is a documentclass in LaTeX? Name some \\ documentclasses.
+
+\item write the gnuplot statements to put title on the \\ graph and labels on the axes.
+
+\item Write the gnuplot statements to define a function \\ (2X+1) and plot it.
+
+\end{enumerate}
+
+\vspace{1em}
+\begin{center} \textbf{SECTION - A} \end{center}
+
+
+\item  Write a fortran program to multiply (m x k) matrix \\
+with (k x n) matrix to give an m x n matrix. \hfill (5)
+
+\item Write a fortran FUNCTION to calculate factorial \\
+of a number. Use this FUNCTION in a fortran. program to evaluate the value of
+$\cos(x) = 1 -\frac{x^2}{2!} + \frac{x^4}{4!}$
+\\ at x = 0.5 \hfill (5)
+
+\item Write the syntax of logical if, arithmetic if and block \\
+if statements in fortran. \hfill (5)
+
+\item Write a fortran program to evaluate roots of a \\
+quadratic equation considering all three cases where \\
+discriminant (D) : D = 0, D $>$ 0, D $<$ 0. \hfill (5)
+
+\vspace{1em}
+\begin{center} \textbf{SECTION - B} \end{center}
+
+\item Write a LaTeX code to display the following Maxwell \\ equations. \hfill (5)
+
+    \begin{align*}
+        &\nabla \cdot \mathbf{D} = {\rho}\\
+        &\nabla \cdot \mathbf{B} = 0  \\
+        &\nabla \times \mathbf{E} =-\frac{\partial \mathbf{B}}{\partial t}\\
+        &\nabla \times \mathbf{H} =\mathbf{J}+ \frac{\partial \mathbf{D} }{\partial t}
+    \end{align*}
+
+\item Write the output of the following Latex code
+
+{\fontsize{8.88}{1pt}\selectfont{
+\begin{verbatim}
+\[\scalebox{3} {$ I=I_{0} \left(e^{\frac {e V} {\eta K
+T}}-1\right)$} \]                                  (5)
+\end{verbatim}
+}}
+
+
+\item Write the Latex code to generate following equation
+$$
+I = I_0
+    \left(
+        \frac{\sin\left( \frac{\pi a \sin\theta}{\lambda}\right)}{\frac{\pi a \sin\theta}{\lambda}}
+    \right)^2
+    \left(
+        \frac{\sin\left( \frac{N\pi d \sin\theta}{\lambda}\right)}{\sin\left(\frac{\pi d \sin\theta}{\lambda}\right)}
+    \right)^2
+$$
+
+This equation describes the Intensity distribution \\
+resulting from interferense of diffraction patterns of \\
+N-slits. Here a = slit width, d= distance between \\
+centers of two consecutive slits( grating element), $\theta$ \\
+is the angle of diffraction and A is the wavelength of \\
+light used. \hfill (5)
+
+
+
+\item Describe any method of including bibliography and \\
+ citations in a LaTeX document. Also describe any \\
+ method to include index in the LaTeX document.\\
+  \phantom{.} \hfill (5)
+
+
+
+  \vspace{1em}
+  \begin{center} \textbf{SECTION - C} \end{center}
+
+
+ \item Describe briefly any five Terminals and corresponding \\
+ output file extenstions .xxx in gnuplot that can be set \\
+ using set terminal terminal-type command and set out \\
+"filename.xxx" command. \hfill (5)
+
+
+\item Describe the use of any three of the following gnuplot statements
+
+\begin{enumerate}[label=(\alph*)]
+\setlength\itemsep{1em}
+\item "save" and "load"
+ \item set parametric
+ \item set pm3d
+ \item set samples 3000
+ \item set title
+ \item unset key \hfill (5)
+
+\end{enumerate}
+
+
+    \item Using parametric curve plotting in gnuplot, draw the \\
+    trajectory of a projectile fired with initial velocity 100 \\
+     m/s at an angle of 45° with the horizontal. \hfill (5)
+    \item Describe the outcome of the following gnuplot script
+
+    reset
+
+    set multiplot layout 2,2 columns first scale 1,1
+
+    plot sin(x)
+
+    plot cos(x)
+
+    plot x**3
+
+    plot sin(x)**2
+
+    unset multiplot \hfill (5)
+
+\setstretch{0.75}
+\item  Given the functions
+
+\begin{flalign*}
+\text{fl(x)}=\sin(\pi x) &&
+\end{flalign*}
+
+\begin{flalign*}
+    \text{f2(x)}=\frac{\sin(3\pi x)}{3}&&
+\end{flalign*}
+
+\begin{flalign*}
+\text{f3(x)}=\frac{\sin(5\pi x)}{5}&&
+\end{flalign*}
+
+\begin{flalign*}
+\text{f4(x)}=\frac{\sin(7\pi x)}{7}&&
+\end{flalign*}
+
+\singlespacing
+write a gnuplot script to plot (f1(x) - f2(x) + f3(x) -
+
+f4(x)) as a function of x. \hfill (5)
+
+
+\end{enumerate}
+
+% Change  footer on the last page
+\rfoot{\textbf{(800)}}
+
+\end{document}

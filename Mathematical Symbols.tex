@@ -1,0 +1,103 @@
+\documentclass{article} 
+\usepackage{anysize}
+\usepackage{amsmath}
+\usepackage{mathabx} 
+\usepackage{amstext}
+\usepackage{amsfonts}
+\begin{document}
+\begin{align*}
+    \bigg\langle\frac{1}{\sqrt2}(\uparrow+\downarrow) \biggr\rvert&= \frac{1}{\sqrt2}(\langle\uparrow \! |+\langle\downarrow \! |) \\
+    \langle\frac{1}{\sqrt2}(\uparrow+\downarrow)|&= \frac{1}{\sqrt2}(\langle\uparrow \! |+\langle\downarrow \! |)
+\end{align*}
+\pagebreak
+$$\langle \psi_1 | \psi_2\rangle= \int_ {-\infty}^{\infty}\psi_1^*\psi_2dx$$
+\pagebreak
+
+\noindent $\text{If the function } f: \ \mathbb{R} \rightarrow \mathbb{R} \text{ be defined by} f(x) = 2x - 3 \ \text{and} \  g: \mathbb{R} \rightarrow \mathbb{R} \\ \ \text{by} \ g(x) = x ^ 3 + 5 \text{ , then find} \ f \circ g \ \text{and show that} \    f\circ g \ \text{is invertible.}$ 
+\\ 
+
+\noindent $ \text{Also, find} \  (f\circ g)^{-1} ,{hence, find} (f\circ g)^{-1}(9). $
+
+\pagebreak
+
+$$\text{Unit step function} \ u(t) =  \begin{cases}
+    1,  & t \ge0 \\[2ex]
+    0, & t < 0
+    \end{cases}$$
+    
+    $$\text{Unit ramp function} \ r(t) = \begin{cases}
+    t,  & t \ge0 \\[2ex]
+    0, & t< 0
+    \end{cases}$$
+\pagebreak
+$$C (n,r)= \ _n{C}_r = \binom n r = \frac{ n!}{(n-r)!r!}$$
+
+
+
+
+\pagebreak
+\begin{align*}
+sinx&= x- \frac{x^ 3}{3!} +  \frac{x^ 5}{5!} - \frac{x^7}{7!} +...\\
+ &= \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n+1}}{ (2n+1)!} \\
+cosx&= 1- \frac{x^ 2}{2!} +  \frac{x^ 4}{4!} - \frac{x^6}{6!} +...\\
+ &= \sum_{n=0}^{\infty}\frac{(-1)^n x^{2n}}{ (2n)!} 
+\end{align*}
+
+\pagebreak
+$$\ \ \ \ \ \ \text{Formal  Series\ Of  Dirac Delta Function}$$ 
+
+$\text{The formal series of the Dirac delta function is:}$
+$$\delta(x)=\sum_{n=-\infty}^{\infty}e^{2\pi inx}$$
+
+$\text{This can be interpreted via the following semi-formal computation} \\ \text{\ \ \ \ \  on period-1 functions F using their Fourier series:}$
+
+$$F(x)\  = \ \sum_{n=\infty}^{\infty}e^{2\pi inx}\hat F(n)=\int_{-\infty}^{\infty}e^{-2\pi int}F(t)dt $$
+$$\hspace{-20pt}=\ \int_{-\infty}^{\infty}\sum_{n=\infty}^{\infty}e^{-2\pi n(x-t)}F(t)dt $$
+
+\pagebreak
+
+$\text{A linear system might be described by the following equations:}$
+
+$$a_{11}x_1 +a_{12}x_2 +a_{13}x_3 =b_1 $$
+$$a_{21}x_1 +a_{22}x_2 +a_{23}x_3 =b_2 $$
+$$a_{31}x_1 +a_{32}x_2 +a_{33}x_3 =b_3 $$
+
+$\text{These equations could be written in matrix form as:}$
+
+$$\begin{bmatrix}a_{11}&a_{12}&a_{13}\\ a_{11}&a_{12}&a_{13} \\ a_{11}&a_{12}&a_{13} 
+\end{bmatrix}\begin{bmatrix}x_1\\ x_2\\ x_3\end{bmatrix}=\begin{bmatrix}b_1\\ b_2\\ b_3\end{bmatrix}$$
+
+$\text{The matrix equation could be written as:} \ \mathbf{Ax=b}$
+
+\pagebreak
+$$\iint _v (\vec\nabla \times \vec F) \cdot \vec{n}dS = \oint_c\vec F\cdot d\vec r$$
+
+$$\iiint _v (\vec\nabla \cdot \vec F) \ dV = \oiint_s(\vec F\cdot\hat n) dS $$
+
+\pagebreak
+$$I=I_{0}cos^2\bigg(\frac{\pi d\sin\theta}{\lambda}\bigg)\bigg[\frac{sin(\pi a\sin\theta/\lambda)}{\pi a\sin\theta/\lambda}\bigg]^2$$
+
+\pagebreak
+
+\begin{align*}
+&\nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_o}\\
+&\nabla \cdot \mathbf{B} = 0  \\
+&\nabla \times \mathbf{E} =-\frac{\partial \mathbf{B}}{\partial t}\\
+&\nabla \times \mathbf{B} =\mu_o\mathbf{J}+\mu_o\epsilon_o \frac{\partial \mathbf{E} }{\partial t}
+\end{align*}
+\pagebreak
+
+\begin{align*}
+    &\oint \vec E \cdot d\vec A = \frac{Q_{enc}}{\mu_o} \\
+     &\oint \vec E \cdot d\vec s =- \frac{d \Phi_m} {dt} \\
+    &\oint \vec B\cdot d\vec A = 0 \\ 
+     &\oint \vec B \cdot d\vec s =\mu_oI+\mu_o\epsilon_o \frac{d\Phi_e}{dt}
+ \end{align*}
+ 
+
+\pagebreak
+
+    $$e^{ix} = \sum_{n=0}^{\infty} \frac{(-1)^n \ x^{2n}}{ n!} = \sum_{n=0}^{\infty} \frac{(-1)^n \ x^{2n}}{ 2n!}+\iota\sum_{n=0}^{\infty} \frac{(-1)^n \ x^{2n+1}}{ (2n+1)!}$$
+
+
+\end{document} 
