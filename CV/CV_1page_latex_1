@@ -1,0 +1,89 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{banking}
+\moderncvcolor{grey}
+
+\usepackage[margin=1in]{geometry}
+\usepackage[english]{babel}
+\usepackage{multicol}
+\setlength{\hintscolumnwidth}{2cm}
+\setlength{\separatorcolumnwidth}{3cm}
+\setlength\columnsep{30pt}
+
+\usepackage{fontawesome5}
+\firstname{\color{black}{Bhavay}}
+\familyname{Luthra}
+\email{bluthra999@gmail.com}
+\mobile{+91 8826891942}
+
+
+\begin{document}
+\makecvtitle
+\begin{multicols}{2}
+\setlength{\maincolumnwidth}{\linewidth-\leftskip-\rightskip-\separatorcolumnwidth-\hintscolumnwidth}
+
+
+\section{\color{black}Education}
+\cvitem{Delhi University }{Bachelor's in Physical Science with Computer Science| SGPA (3) :  9.82}
+
+
+\section{\color{black}Extra-Coursework}
+\subsection{Undergraduate}
+I have done following courses from the MIT OCW :
+
+\begin{itemize}
+\setlength{\itemindent}{+.2in}
+    \item {\href{https://ocw.mit.edu/courses/mathematics/18-01-single-variable-calculus-fall-2006/}{Single Variable Calculus}}
+    \item {\href{https://ocw.mit.edu/courses/mathematics/18-02-multivariable-calculus-fall-2007/}{Multivariable Calculus}}
+    \item {\href{https://ocw.mit.edu/courses/18-03-differential-equations-spring-2010/}{Differential Equations}}
+    \item {\href{https://ocw.mit.edu/courses/mathematics/18-06sc-linear-algebra-fall-2011/}{Linear Algebra}}
+    \item {\href{{https://ocw.mit.edu/courses/8-03sc-physics-iii-vibrations-and-waves-fall-2016/}}{Vibration and Waves}}
+    \item {\href{Introduction to Computer Science and Programming in Python}{Introduction to Computer Science and Programming in Python}}
+    
+\end{itemize}
+
+
+\subsection{Webinars \&  Workshops}
+\begin{itemize}
+\setlength{\itemindent}{+.2in}
+    \item Quantum Technology , January 2022 
+    \item Scientific Learning and Research: The Three Idiots Way, May 2021
+    \item Understanding Fundamental Constituents of Universe , April 2021
+    
+\end{itemize}
+
+\section{\color{black}Volunteering Experience}
+\cvitem{Khan Academy}{5th DGPE Holiday Project evaluating Javascript projects | 2018-2019}
+\section{\color{black}Skills}
+\subsection{Programming Languages}
+I am adding the link to the GitHub repository ; 
+\begin{itemize}
+\setlength{\itemindent}{+.2in}
+     \item \href{https://github.com/bluthra999/Python-Sem-1-}{Python}
+     \item \href{https://github.com/bluthra999/Latex}{LaTex}
+     \item \href{https://github.com/bluthra999/Bash_Scripting}{Bash Scripting}
+     \item \href{https://github.com/bluthra999/Numerical-Analysis-Examples/tree/main/C\%2B\%2B}{C++}
+    \item \href{}{SQL/Sequel} 
+     \item Markdown 
+     \item  Git  
+
+\end{itemize}
+
+\section{\color{black}Societies}
+\begin{itemize}
+\setlength{\itemindent}{+.2in}
+    \item \cvitem{Anhand}{Music Society | 2020-2021}
+\end{itemize}
+\section{\color{black}Awards \& Achievements}
+\begin{itemize}
+\setlength{\itemindent}{+.2in}
+\item \cvitem{2016}{Best Percussionist }
+\item \cvitem{2021}{Cleared Joint Entrance Examination – Main}
+\end{itemize}
+\section{\color{black}{Hobbies and Interest}}
+Loves to listen music ,  play percussion , click photos and running
+\section{\color{black}Links} 
+\faGithub \  \href{https://github.com/bluthra999}{bluthra999}\\
+\faLinkedin \ \href{https://www.linkedin.com/in/bhavayluthra/}{Bhavay Luthra}\\
+\faTwitter \ \href{https://twitter.com/bhavay_luthra?t=rNkKL1qEno82mHP23SITCQ&s=09}{@bhavay\_luthra}
+\end{multicols}
+\end{document}
